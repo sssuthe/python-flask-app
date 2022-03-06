@@ -7,7 +7,6 @@ orbs:
 jobs:
   build:
     docker:
-      key: *cache_key
 
 workflows:
   build-and-deploy:
