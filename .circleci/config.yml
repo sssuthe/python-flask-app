@@ -8,3 +8,7 @@ workflows:
           context: myContext
           image: python-flask-image
           registry-url: us.gcr.io
+          filters:
+            branches:
+              only:
+                main
