@@ -6,5 +6,5 @@ workflows:
     jobs:
       - gcp-gcr/build-and-push-image:
           context: myContext
-          image: my-image
+          image: python-flask-image
           registry-url: us.gcr.io
